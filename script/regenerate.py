@@ -10,13 +10,7 @@ programs_path = "./programs"
 path_object = os.walk(programs_path)
 path_list = list(path_object)
 print(path_list)
-path=path_list[0]
-print(path)
-
-keyfile = "./script/new-keypair.json"
-programs_path = "../programs"
-path_object = os.walk(programs_path)
-path = list(path_object)[0][1][0]
+path=path_list[0][1][0]
 print(path)
 
 # mkdir -p ./target/deploy
