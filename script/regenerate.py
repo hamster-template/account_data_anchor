@@ -8,8 +8,9 @@ import subprocess
 keyfile = "./script/new-keypair.json"
 programs_path = "./programs"
 path_object = os.walk(programs_path)
-print(list(path_object))
-path = list(path_object)[0][1]
+path_list = list(path_object)
+print(path_list)
+path=path_list[0]
 print(path)
 
 keyfile = "./script/new-keypair.json"
