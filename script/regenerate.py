@@ -48,6 +48,7 @@ with open(rsfile, 'w') as file:
 
 tomlfile = "./Anchor.toml"
 with open(tomlfile, 'r') as file:
+    print(file)
     tomldata = toml.load(file)
 
 tomldata['programs']['localnet']['solana_nft_anchor'] = addr
