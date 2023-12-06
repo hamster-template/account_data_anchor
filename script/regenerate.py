@@ -2,7 +2,7 @@
 
 import os
 import re
-# import toml
+import toml
 import subprocess
 
 keyfile = "./script/new-keypair.json"
